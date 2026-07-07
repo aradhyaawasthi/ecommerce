@@ -1,16 +1,90 @@
-# React + Vite
+# 🛒 E-Commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive E-Commerce web application built using React and Vite. The application allows users to browse products, view product details, add/remove items from the cart, and complete a simple checkout flow.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🏠 Home Page
+- 🛍️ Product Listing
+- 📄 Product Details Page
+- ➕ Add to Cart
+- ❌ Remove from Cart
+- 💰 Total Price Calculation
+- 👤 Guest Login
+- 🔒 Protected Checkout Page
+- 💾 Cart Persistence using Local Storage
+- 🇮🇳 Indian Rupee (₹) Price Display
+- 📱 Responsive Design
+- ✅ Place Order Button
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router DOM
+- Context API
+- CSS
+- DummyJSON API
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+ ├── components/
+ ├── context/
+ ├── pages/
+ ├── services/
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aradhyaawasthi/ecommerce.git
+```
+
+Go to the project folder:
+
+```bash
+cd ecommerce
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Project Highlights
+
+- Responsive user interface
+- Product browsing and details
+- Shopping cart management
+- Local storage support
+- Clean and simple React architecture
+
+---
+
+## 👩‍💻 Author
+
+**Aradhya Awasthi**
+ Sprint 6 React project.
